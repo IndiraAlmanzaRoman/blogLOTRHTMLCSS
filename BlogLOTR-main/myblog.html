@@ -10,30 +10,39 @@
 </head>
 <body>
     <header id="header">
-        <h1>El babe está bien babe</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">The Prancing Pony</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Bree</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Ingresa una fecha" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Buscar hospedaje</button>
+      </form>
+    </div>
+  </div>
+</nav>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a>Inicio</a>
-            </li>
-            <li>
-                <a>Servicios</a>
-            </li>
-            <li>
-                <a>Historia</a>
-            </li>
-            <li>
-                <a>Bree</a>
-            </li>
-            <li>
-                <a>Ubicación</a>
-            </li>
-            <li>
-                <a>Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    
     <main class="container-fluid">
         <div class="alert alert-primary" role="alert">
             ¡Descuentos en hospedaje para hobbits! (No se garantiza supervivencia al ataque de los Espectros del Anillo)
@@ -47,7 +56,8 @@
                 <div class="col-10 col-md-8 col-sm-12"><p id="parrafo1">Somos la posada más antigua de La Comarca y una de las más antiguas de Tierra Media. Atendida por la familia Butterbur desde hace 500 años</p>
                 <p>Nuestros barriles de cerveza cuentan con la bendición de Gandalf</p>
                 </div>
-                <div class="col-2 col-md-4 col-sm-12"><img width="200px" src="./assets/images.jpeg"></div>
+                <div class="col-2 col-md-4 col-sm-12"><img width="400px" src="./assets/images.jpeg" class="img-thumbnail"></div>
+                
             </div>
             
         

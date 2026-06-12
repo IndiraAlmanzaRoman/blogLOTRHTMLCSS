@@ -16,9 +16,15 @@ p {
     cursor: pointer;
 }
 
-#header{
-    background-color: blueviolet;
+.navbar{
+    background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#header{
     position: sticky;
     top: 0;
     left: 0;
